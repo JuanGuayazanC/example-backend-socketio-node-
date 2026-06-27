@@ -38,10 +38,10 @@ React (Socket.IO) ──(join-room / draw-event)──> Socket.IO Server
 ## 🚀 Puesta en marcha
 ```bash
 # 1) Instalar dependencias
-npm i
+pnpm install
 
 # 2) Ejecutar en desarrollo
-npm run dev
+pnpm dev
 # Servirá HTTP en http://localhost:3001 y Socket.IO en el mismo host/puerto.
 ```
 
@@ -111,8 +111,8 @@ En el **frontend (Blueprints P4)**:
    ```
 2. Levanta el front:
    ```bash
-   npm i
-   npm run dev
+   pnpm install
+   pnpm dev
    ```
 3. En la UI, selecciona **Socket.IO** como tecnología RT, elige `autor` y `plano`, abre **dos pestañas** y haz clic en el canvas: verás el trazo replicado.
 
